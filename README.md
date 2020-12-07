@@ -10,7 +10,7 @@ This can be changed by passing `REDIS_HOST` environment variable.
 package redis
 
 import (
-    "github.com/garyburd/redigo/redis"
+    "github.com/gomodule/redigo/redis"
     "os"
     "os/signal"
     "syscall"
@@ -76,7 +76,7 @@ package redis
 
 import (
     "fmt"
-    "github.com/garyburd/redigo/redis"
+    "github.com/gomodule/redigo/redis"
 )
 
 func Ping() error {
